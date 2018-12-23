@@ -1,4 +1,5 @@
-﻿using System;
+﻿using LeetCode.My;
+using System;
 
 namespace LeetCode
 {
@@ -13,7 +14,9 @@ namespace LeetCode
 
             string[] strs = { "aa","aa","a"};
             string str = My.LeetCode20181222.LongestCommonPrefix(strs);
-            Console.WriteLine(str);
+
+            bool isValid = LeetCode20181223.IsValid("(]");
+            Console.WriteLine(isValid);
             Console.ReadKey();
         }
     }
