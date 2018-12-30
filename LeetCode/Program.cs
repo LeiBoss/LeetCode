@@ -16,7 +16,10 @@ namespace LeetCode
             string str = My.LeetCode20181222.LongestCommonPrefix(strs);
 
             bool isValid = LeetCode20181223.IsValid("(]");
-            Console.WriteLine(isValid);
+            int[] nums_Remove = new int[] { 0, 0, 1, 1, 1, 2, 2, 3, 3, 4 };
+            int count = LeetCode20181225.RemoveDuplicates(nums_Remove);
+            int n = LeetCode20181230.StrStr("aaaaa", "bba");
+            Console.WriteLine(n);
             Console.ReadKey();
         }
     }
